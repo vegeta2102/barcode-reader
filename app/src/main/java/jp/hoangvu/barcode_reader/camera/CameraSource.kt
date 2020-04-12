@@ -5,9 +5,12 @@ import android.hardware.Camera
 import android.hardware.Camera.CameraInfo
 import android.hardware.Camera.Parameters
 import android.util.Log
+import android.view.Surface
 import android.view.SurfaceHolder
+import android.view.WindowManager
 import com.google.android.gms.common.images.Size
 import com.google.firebase.ml.vision.common.FirebaseVisionImageMetadata
+import jp.hoangvu.barcode_reader.R
 import java.io.IOException
 import java.nio.ByteBuffer
 import java.util.*
